@@ -7,7 +7,7 @@
 void global_free(void)
 {
 stack_t *to_free;
-stacl_t *temp;
+stack_t *temp;
 
 to_free = *global_head;
 temp = NULL;
